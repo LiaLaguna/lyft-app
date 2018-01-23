@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.shadows {
+  box-shadow: 3px 5px 15px #71777C;
+}
+
+.center {
+  text-align: center;
+}
+
+/*** SPLASH ***/
+.splash, .end {
+  position: absolute;
+  width: 768px;
+  height: 200vh;
+  z-index: 1;
+  background: linear-gradient(-180deg, #e50088, #54005e);
+  text-align: center;
+}
+
+.splash > img,
+.end > img {
+  height: 60vh;
+  margin-top: 10em;
+}
+
+.end > .logo-container > img {
+  height: 60vh;
+  margin-top: 10em;
+}
+
+.end > .check-container > img {
+  height: 30vh;
+  margin-top: 5em;
+}
+.white-pink {
+  width: 30em;
+  margin-top: 15em;
+}
+
+/*** LOG IN / SIGN UP ***/
+.bg {
+  background-image: url("../assets/images/night.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-pink {
+  width: 15em;
+  margin-top: 5em;
+}
+
+.btn-login {
+  margin-left: 17em;
+  margin-top: 5em;
+}
+
+a {
+  color: white !important;
+}
+
+/*** SIGN UP ***/
+.font-color {
+  color: #2b2b2b;
+}
+
+.hr {
+  border: 1px solid lightgray;
+}
+
+.icon-color {
+  color: #e50088;
+}
+
+/*** VERIFY PHONE NUMBER***/
+#form-control-style {
+  border-bottom: solid 1px #e50088 !important;
+  border-width: 0 0 1px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
+  border-radius: 0 !important;
+  box-shadow: 0 !important;
+  display: block !important;
+  height: 45px !important;
+  width: 100%;
+}
+
+#input-group-text {
+  border: none;
+  background-color: transparent;
+}
+
+.container-inputs {
+  margin-left:11em;
+}
+
+.btn-next {
+  border: none;
+  background: linear-gradient(-160deg, #54005e, #e50088);
+}
+
+#a-color {
+  color: blue;
+}
